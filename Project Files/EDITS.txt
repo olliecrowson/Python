@@ -1,0 +1,91 @@
+        '''
+                self.mouse_down = False
+                #ev = pygame.event.get()
+                #clock.tick(20)
+                #if ev != []:
+                    #print(ev)
+                for event in ev:
+
+                    if event.type == pygame.MOUSEBUTTONUP:
+                        #blit to screen function create
+
+                    if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
+                        self.mouse_down = True
+                        print("HELLO")
+
+                while self.mouse_down:
+                    #do not allow sprites to be dropped in the same place = error: when clicked clicks 2
+                    ev = pygame.event.get()
+                    for event in ev:
+                        if event.type == pygame.MOUSEBUTTONUP:
+                            print("YES")
+                            self.mouse_down = False
+                        else:
+                            #print(self.number)
+                            screen.fill((250, 250, 250))
+                            self.x,self.y = (pygame.mouse.get_pos())
+
+                            #runProgram()
+                            pygame.draw.line(screen, (230, 30, 30), (90, 0), (90, 720), 6)
+                            for node in nodes:
+                                node = eval(node)
+                                node.blitToScreen()
+
+                            pygame.display.flip()
+                 '''
+
+'''
+    def createNewNodeInstance(self):
+        if self.clicked == False:
+            if self.name == "pc":
+                if self.number < 11:
+                    if self.number == 1:
+                        pc_2 = self.__class__((10,15),"pc.png","pc",2)
+                        #global pc_2
+                        nodes.append("pc_2")
+                        self.clicked = True
+                        return pc_2
+                    elif self.number == 2:
+                        pc_3 = Node((10,15),"pc.png","pc",3)
+                        nodes.append("pc_3")
+
+                        return pc_3
+                    elif self.number == 4:
+                        pc_4 = Node((10,15),"pc.png","pc",4)
+                        nodes.append("pc_4")
+
+                        return pc_4
+                    elif self.number == 5:
+                        pc_5 = Node((10,15),"pc.png","pc",5)
+                        nodes.append("pc_5")
+
+                        return pc_5
+                    elif self.number == 6:
+                        pc_6 = Node((10,15),"pc.png","pc",6)
+                        nodes.append("pc_6")
+
+                        return pc_6
+                    elif self.number == 7:
+                        pc_7 = Node((10,15),"pc.png","pc",7)
+                        nodes.append("pc_7")
+
+                        return pc_7
+                    elif self.number == 8:
+                        pc_8 = Node((10,15),"pc.png","pc",8)
+                        nodes.append("pc_8")
+
+                        return pc_8
+                    elif self.number == 9:
+                        pc_9 = Node((10,15),"pc.png","pc",9)
+                        nodes.append("pc_9")
+
+                        return pc_9
+                    elif self.number == 10:
+                        pc_10 = Node((10,15),"pc.png","pc",10)
+                        nodes.append("pc_10")
+
+                        return pc_10
+
+                else:
+                    print("Max number of pc's reached")
+'''

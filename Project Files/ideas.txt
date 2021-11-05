@@ -1,0 +1,34 @@
+pc:hub1, hub1: pc, hub2, 
+append all visisted :
+if havent seen it visit it
+
+{<__main__.PC object at 0x02AB5910>: [<__main__.Hub object at 0x02948A30>], <__main__.Hub object at 0x02948A30>: [<__main__.Printer object at 0x02948CB0>, <__main__.Node object at 0x0294F0B0>], <__main__.PC object at 0x02AB33F0>: [<__main__.Hub object at 0x02948A30>]}
+
+connecting multiple hubs to one switch doesnt work
+must connect switch to switch correctly
+
+aggregated sql functions
+Use dict of dicts!!!
+
+table of contents 
+
+cant import multiple hubs/ switches connecting to 1 switch
+show how router connects to WAN
+could create queue of print jobs
+ie))) 
+{<__main__.PC object at 0x0280CE30>: [{<__main__.Hub object at 0x02B81510>: [<__main__.Printer object at 0x02B81790>, <__main__.Router object at 0x02B6EFF0>]}, <__main__.Printer object at 0x0280CE30>)] ?
+
+cant connect to printer b4 connecting to print server --> first hierarchy arg doesnt work
+2 hubs next to each other doesnt work
+activate servers, then deactivate if not shown
+
+print server should connect ot printer
+web cache doesnt work
+
+for file servers:
+	draw line next to server, then draw another line onto server
+dont allow inner connections?
+
+should show packets returning (ie when connecting to file server)
+'zoom in' on packet routes
+show wireless

@@ -1,0 +1,43 @@
+Mechanics projecile revision game for A-level + students.
+
+Shoot-the-apple like game?
+
+Asks you to work out speed to fire arrow/ at which angle.
+Will use SUVAT equations/ F = MA? -- ONLY ONE CAN APPLY
+
+What is displayed?
+Decimal point degree of accuracy
+Distance from arrow/ height of arrow (and bow) from ground
+Wind speed??
+Initial speed
+Constant acceleration of gravity at 9.8ms^-1 (or m/s)
+Angle of launch
+Mass of arrow (probably considered a particle so neglible)
+Graphical interface (pygame?)
+Weighted arrows to indicate distance/ angle, etc.
+Moving animation of arrow/ zoom in then out on first look.
+Boxes to add calculated speed/ angle/ 
+
+Which variables change?
+One of the variables will be missing and will need to be calculated. Once calculated player will press 'fire' and an animation will be shown showing if the arrow hits the apple or is high/low, or short/long.
+Distance from arrow/ height of arrow (and bow) from ground
+Wind speed??
+Initial speed
+Angle of launch
+(Mass of arrow?)
+
+Possible a+ additions
+Multiple targets?
+AI introduction
+Saved leaderboard with quickest time taken to calculate variable/ 'kill streak'
+Mixed difficulty levels?? Mass? Wind speed? More difficult calculations.
+Larger apple to hit (i.e EASIER NUMBERS // reduced level of accuracy to account for rounded/ minor incorrect errors, then reduce this as level progresses/ as harder setting selected. Correct answer will be displayed.)
+If incorrect answer given, then worked solution will be shown
+
+End user
+A-Level students studying mechanics as a interesting/entertaining/educating game for revision.
+Anyone who wants to revise mechanic projectiles.
+
+database - teacher log in 
+-- see set of students 
+different topics and give topics less good at

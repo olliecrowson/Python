@@ -1,0 +1,14 @@
+(lp0
+(lp1
+S'pc'
+p2
+a(I292
+I54
+tp3
+aS'hub'
+p4
+a(I190
+I170
+tp5
+a(lp6
+aNaa.
